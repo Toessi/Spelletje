@@ -1,11 +1,11 @@
 # 🌍 Topografie Quiz — Spelletje
 
-Een klein topografiespel: raad welke **hoofdstad** bij welk **land** hoort.
+Een klein topografiespel: raad welke **hoofdstad** bij welk **Europees land** hoort.
 
 - 15 willekeurige vragen per ronde
 - 4 antwoordopties per vraag
 - Bij een fout antwoord zie je meteen de juiste hoofdstad
-- 68 landen, verdeeld over Europa, Azië, Afrika, Amerika en Oceanië
+- 44 Europese landen
 
 ## Spelen
 
