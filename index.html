@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Topografie Quiz — Hoofdsteden</title>
+<link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+<main class="quiz">
+  <header class="quiz-header">
+    <h1>🌍 Topografie Quiz</h1>
+    <p class="subtitle">Welke hoofdstad hoort bij welk land? · 15 vragen per ronde · 4 keuzes</p>
+  </header>
+
+  <!-- Startscherm -->
+  <section id="startScherm" class="kaart">
+    <h2>Klaar voor de ronde?</h2>
+    <p>Je krijgt 15 willekeurige vragen. Bij een fout antwoord zie je meteen welke hoofdstad wél correct was.</p>
+    <button id="startBtn" class="knop primair">Start ronde</button>
+  </section>
+
+  <!-- Vraagkaart -->
+  <section id="vraagKaart" class="kaart verborgen">
+    <div class="balk"><div id="balkVulling" class="balk-vulling"></div></div>
+    <div class="meta-rij">
+      <span id="voortgang"></span>
+      <span id="score"></span>
+    </div>
+    <h2 id="vraagTekst"></h2>
+    <div id="opties" class="opties"></div>
+    <p id="feedback" class="feedback"></p>
+    <button id="volgendeBtn" class="knop primair verborgen">Volgende vraag →</button>
+  </section>
+
+  <!-- Resultaat -->
+  <section id="resultaat" class="kaart verborgen">
+    <h2>Ronde afgerond!</h2>
+    <p id="eindScore" class="eind-score"></p>
+    <p id="eindBericht" class="eind-bericht"></p>
+    <button id="opnieuwBtn" class="knop primair">Nieuwe ronde</button>
+  </section>
+</main>
+
+<footer class="quiz-footer">Topografiespel · hoofdsteden van de wereld</footer>
+
+<script src="quiz-data.js"></script>
+<script src="quiz.js"></script>
+</body>
+</html>
